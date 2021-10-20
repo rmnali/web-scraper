@@ -35,7 +35,7 @@ f = open(fileName, "w")
 colTitle = "Product Name, Product Price\n"
 f.write(colTitle)
 
-# using while loop to iterate on product names and prices and extract product info then make a list
+# using while loop to iterate on product names and prices and extract product info
 i = 0
 while i < len(productNames):
     product_name = productNames[i].div["title"]         # extract name from title HTML attribute
